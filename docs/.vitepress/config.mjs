@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "The Swift Guy",
   description: "Swift, SwiftUI, UIKit",
-  base: "/theswiftguy/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
