@@ -23,6 +23,15 @@ export default defineConfig({
     // Navbar
     nav: [
       {
+        text: "Swift LeetCode",
+        items: [
+          {
+            text: "27 Remove Element",
+            link: "/leetcode/array/remove-element.md",
+          },
+        ],
+      },
+      {
         text: "Swift",
         items: [
           {
@@ -53,8 +62,18 @@ export default defineConfig({
 
     // Sidebar
     sidebar: {
-      // This sidebar gets displayed when a user
-      // is on `guide` directory.
+      "/leetcode/": [
+        {
+          text: "Swift LeetCode",
+          items: [
+            {
+              text: "27 Remove Element",
+              link: "/leetcode/array/remove-element.md",
+            },
+          ],
+        },
+      ],
+
       "/swift/": [
         {
           text: "Swift",
