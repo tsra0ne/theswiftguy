@@ -15,8 +15,8 @@ hero:
       text: Learn
       link: /swift/basics
     - theme: alt
-      text: GitHub
-      link: https://github.com/tsra0ne/theswiftguy
+      text: Blog
+      link: https://blog.theswiftguy.in
 
 features:
   - icon: 🔍
