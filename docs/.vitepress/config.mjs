@@ -23,6 +23,10 @@ export default defineConfig({
     // Navbar
     nav: [
       {
+        text: "Blog",
+        link: "https://blog.theswiftguy.in/",
+      },
+      {
         text: "Swift LeetCode",
         items: [
           {
