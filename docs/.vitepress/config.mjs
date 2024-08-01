@@ -23,19 +23,6 @@ export default defineConfig({
     // Navbar
     nav: [
       {
-        text: "Blog",
-        link: "https://blog.theswiftguy.in/",
-      },
-      {
-        text: "Swift LeetCode",
-        items: [
-          {
-            text: "27 Remove Element",
-            link: "/leetcode/array/remove-element.md",
-          },
-        ],
-      },
-      {
         text: "Swift",
         items: [
           {
@@ -61,6 +48,10 @@ export default defineConfig({
             link: "/uikit/integrating-swiftui-into-uikit",
           },
         ],
+      },
+      {
+        text: "Blog",
+        link: "https://blog.theswiftguy.in/",
       },
     ],
 

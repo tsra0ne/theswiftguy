@@ -14,56 +14,61 @@ layout: doc
 
 [[toc]]
 
-## Constants and Variables
-
-Use let to declare constants and var for variables.
+## Printing to Console
 
 ```swift
-let siteName = "https://swiftcodehub.in"
-var numberOfSiteAttempts = 10
+var greeting = "Hello, playground"
+print(greeting)
 ```
 
-> [!TIP]
-> If a stored value in your code won’t change, always declare it as a constant with the let
-keyword. Use variables only for storing values that change.
+* This line prints the value stored in the `greeting` variable to the console.
 
-You can assign a initial value later in the program but you it's gaurenteed to have a value befoew you read it.
+## Comments
+
+### Single-line comments
 
 ```swift
-let siteName: String
-var numberOfSiteAttempts: Int
-
-siteName = "https://swiftcodehub.in"
-numberOfSiteAttempts = 10
-
-// Error
-siteName = "example.com"
+// This is a single-line comment
 ```
 
-You cannot assign `"example.com"` to `siteName` because it's a constant.
+* Comments are used to explain code and are ignored by the compiler.
+* Single-line comments start with `//`.
 
-You can also declare multiple variables in the same line.
+### Multi-line comments
 
 ```swift
-var apples = 2, bananas = 5, carrots = 8
+/*
+  This a multiline comment
+  that goes to
+  multiple lines
+*/
 ```
 
-## Type Annotation
+* Multi-line comments start with `/*` and end with `*/`.
 
-You can provide type annotation to constants and variable, it tells about the kind of values it can accept.
+## Naming Conventions
+
+### Camel Case
 
 ```swift
-var deviceName: String
-deviceName = "Apple"
+let firstGreeting = "Hello, world!"
+let thisIsMyFirstGreeting = "Hello, world!"
 ```
 
-Here, `deviceName` variable can only accepts string values. eg: `"Apple"`, `"Android"`.
+* Swift uses camel case for variable and constant names.
+* The first word is lowercase, and subsequent words start with a capital letter.
 
-we can declare multiple variables of same type in same line, as shown in below code.
+## Summary
 
-```swift
-var apples, bananas, carrots: String
-```
+### The provided code demonstrates
 
-> [!NOTE]
-> Swift compiler can infer the variable and constant types if we provide a initial value when creating them.
+* Printing output to the console.
+* Different types of comments for code explanation.
+* Swift's naming conventions using camel case.
+
+## Additional Notes:
+
+* While the code is correct, it's essential to use descriptive variable names to improve code readability. For example, instead of `greeting`, you could use `welcomeMessage`.
+* Indentation and proper formatting enhance code clarity.
+* Consider adding more comments to explain the purpose of the code, especially for larger projects.
+* By following these guidelines, you can write cleaner and more maintainable Swift code.
