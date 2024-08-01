@@ -29,6 +29,10 @@ export default defineConfig({
             text: "Swift Basics",
             link: "/swift/basics",
           },
+          {
+            text: "Basic Types",
+            link: "/swift/basic-types",
+          },
         ],
       },
       {
@@ -77,6 +81,11 @@ export default defineConfig({
               text: "Swift Basics",
               link: "/swift/basics",
             },
+            {
+              text: "Basic Types",
+              link: "/swift/basic-types",
+            },
+            { text: "Developers", link: "/developers" },
           ],
         },
       ],

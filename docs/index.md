@@ -12,7 +12,7 @@ hero:
     alt: The Swift Guy
   actions:
     - theme: brand
-      text: Learn
+      text: Learn Swift
       link: /swift/basics
     - theme: alt
       text: Blog
